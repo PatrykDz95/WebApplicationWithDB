@@ -28,7 +28,7 @@ public class TestDBServlet extends HttpServlet {
 		String pass = "springstudent";
 		
 		
-		String jdbcUrl = "jdbc:mysql://localhost:3306/web_customer_tracker?useSSL=false&serverTimezone=UTC";
+		String jdbcUrl = "jdbc:mysql://localhost:3306/web_customer_tracker?useSSL=false&amp;serverTimezone=UTC";
 		
 		String driver = "com.mysql.jdbc.Driver";
 		
