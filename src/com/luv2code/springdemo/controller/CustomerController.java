@@ -14,7 +14,7 @@ import com.luv2code.springdemo.entity.Customer;
 @RequestMapping("/customer")
 public class CustomerController {
 	
-	//need inject the dao intro the controller
+	//need to inject the dao intro to the controller
 	@Autowired
 	private ICustomerDAO customerDAO;
 
