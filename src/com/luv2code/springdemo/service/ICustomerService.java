@@ -7,5 +7,7 @@ import com.luv2code.springdemo.entity.Customer;
 public interface ICustomerService {
 	
 	public List<Customer> getCustomers();
+	
+	public void saveCustomer(Customer theCustomer);
 
 }

@@ -35,4 +35,14 @@ public class CustomerDAOImpl implements ICustomerDAO{
 			return customers;
 		}
 
+	public void saveCustomer(Customer theCustomer) {
+
+		//get current hibernate session
+		Session currentSession = sessionFactory.getCurrentSession();
+		
+		//save the customer
+		currentSession.save(theCustomer);
+		
+	}
+
 }
