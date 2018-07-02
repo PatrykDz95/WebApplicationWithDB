@@ -12,5 +12,9 @@ public interface ICustomerService {
 	
 	public Customer getCustomers(int theId);
 
+	public void deleteCustomer(int theId);
+
+	public List<Customer> searchCustomers(String theSearchName);
+
 
 }
